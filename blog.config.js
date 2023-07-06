@@ -1,24 +1,24 @@
-const BLOG = {
-  title: 'Notionic',
-  author: '左蓝',
-  email: 'i@zuolan.me',
-  link: 'https://zuolan.me',
+const 博客 = {
+  标题: '北海轻歌-记录一个城市的一个人',
+  作者: '琛苏',
+  email: 'i4017@hotmail.com',
+  link: 'https://4op.top',
   newsletter: 'Notionic Weekly',
-  description: 'A static blog build on top of Notion and Next.js',
+  描述: 'A static blog build on top of Notion and Next.js',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
-  appearance: 'auto', // ['light', 'dark', 'auto'],
+  外观: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
-  lightBackground: '#F6F8FA', // use hex value, don't forget '#' e.g #fffefc
-  darkBackground: '#212936', // use hex value, don't forget '#'
+  lightBackground: '#fff', // use hex value, don't forget '#' e.g #fffefc
+  darkBackground: '#46454575', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Notionic in a folder
-  since: 2022, // If leave this empty, current year will be used.
+  since: , // If leave this empty, current year will be used.
   postsPerPage: 10,
   sortByDate: true,
   pagesShow: {
     newsletter: true,
-    notes: true,
-    projects: true,
+    笔记: true,
+    项目: true,
     contact: true,
     books: true,
     friends: true
@@ -29,19 +29,19 @@ const BLOG = {
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
-    twitter: 'https://twitter.com/izuolan',
-    github: 'https://github.com/izuolan',
-    telegram: 'https://t.me/zuolan'
+    twitter: 'https://twitter.com/guoran',
+    github: 'https://github.com/in-dream',
+    telegram: 'https://t.me/may_518'
   },
   seo: {
-    keywords: ['Notionic', 'Zuolan', 'Blog'],
+    keywords: ['琛苏', '北海轻歌', 'Blog'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
-  notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
-  notionSpacesId: process.env.NOTION_SPACES_ID, // DO NOT CHANGE THIS! Edit .env file!
-  notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
-  notionDomain: 'izuolan.notion.site',
-  telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
+  notionPageId: process.env。NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
+  notionSpacesId: process.env。NOTION_SPACES_ID, // DO NOT CHANGE THIS! Edit .env file!
+  notionAccessToken: process.env。NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
+  notionDomain: 'guoran.notion.site',
+  telegramToken: process.env。TELEGRAM_TOKEN, // The token of your Telegram bot
   telegramChatId: '263895784', // The chat id of your Telegram bot
   telegramChannelUrl: 'https://channel.zuolan.me/', // The link of your Telegram channel
   telegramChannelName: 'zuolan_me', // The name of your Telegram channel
@@ -65,7 +65,7 @@ const BLOG = {
       websiteId: '' // The website id of your Umami instance
     }
   },
-  comment: {
+  评论: {
     // support provider: utterances, supacomments
     provider: '', // leave it empty if you don't need any comment plugin
     supaCommentsConfig: {
@@ -76,7 +76,7 @@ const BLOG = {
       repo: ''
     }
   },
-  isProd: process.env.VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
+  isProd: process.env。VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
 }
 // export default BLOG
 module.exports = BLOG
