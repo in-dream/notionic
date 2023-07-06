@@ -1,10 +1,10 @@
 const 博客 = {
-  标题: '北海轻歌',
-  作者: '琛苏',
-  email: 'i4017@hotmail.com',
-  link: 'https://4op.top',
+  标题: 'Notionic',
+  作者: '左蓝',
+  email: 'i@zuolan.me',
+  link: 'https://zuolan.me',
   newsletter: 'Notionic Weekly',
-  描述: '-记录一个城市的一个人',
+  描述: 'A static blog build on top of Notion and Next.js',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   外观: 'auto', // ['light', 'dark', 'auto'],
@@ -12,7 +12,7 @@ const 博客 = {
   lightBackground: '#F6F8FA', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#212936', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Notionic in a folder
-  since: , // If leave this empty, current year will be used.
+  since: 2022, // If leave this empty, current year will be used.
   postsPerPage: 10,
   sortByDate: true,
   pagesShow: {
@@ -29,18 +29,18 @@ const 博客 = {
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
-    twitter: 'https://twitter.com/guoran',
-    github: 'https://github.com/in-dream',
-    telegram: 'https://t.me/may_518'
+    twitter: 'https://twitter.com/izuolan',
+    github: 'https://github.com/izuolan',
+    telegram: 'https://t.me/zuolan'
   },
   seo: {
-    keywords: ['琛苏', '北海轻歌', 'Blog'],
+    keywords: ['Notionic', 'Zuolan', 'Blog'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env。NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionSpacesId: process.env。NOTION_SPACES_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionAccessToken: process.env。NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
-  notionDomain: 'guoran.notion.site',
+  notionDomain: 'izuolan.notion.site',
   telegramToken: process.env。TELEGRAM_TOKEN, // The token of your Telegram bot
   telegramChatId: '263895784', // The chat id of your Telegram bot
   telegramChannelUrl: 'https://channel.zuolan.me/', // The link of your Telegram channel
