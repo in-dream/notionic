@@ -37,11 +37,11 @@ const 博客 = {
     keywords: ['Notionic', 'Zuolan', 'Blog'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
-  notionPageId: process.env。NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
-  notionSpacesId: process.env。NOTION_SPACES_ID, // DO NOT CHANGE THIS! Edit .env file!
-  notionAccessToken: process.env。NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
+  notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
+  notionSpacesId: process.env.NOTION_SPACES_ID, // DO NOT CHANGE THIS! Edit .env file!
+  notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   notionDomain: 'izuolan.notion.site',
-  telegramToken: process.env。TELEGRAM_TOKEN, // The token of your Telegram bot
+  telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
   telegramChatId: '263895784', // The chat id of your Telegram bot
   telegramChannelUrl: 'https://channel.zuolan.me/', // The link of your Telegram channel
   telegramChannelName: 'zuolan_me', // The name of your Telegram channel
@@ -76,7 +76,7 @@ const 博客 = {
       repo: ''
     }
   },
-  isProd: process.env。VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
+  isProd: process.env.VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
 }
 // export default BLOG
 module.exports = BLOG
