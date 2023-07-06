@@ -1,13 +1,13 @@
-const 博客 = {
-  标题: 'Notionic',
-  作者: '左蓝',
+const BLOG = {
+  title: 'Notionic',
+  author: '左蓝',
   email: 'i@zuolan.me',
   link: 'https://zuolan.me',
   newsletter: 'Notionic Weekly',
-  描述: 'A static blog build on top of Notion and Next.js',
+  description: 'A static blog build on top of Notion and Next.js',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
-  外观: 'auto', // ['light', 'dark', 'auto'],
+  appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#F6F8FA', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#212936', // use hex value, don't forget '#'
@@ -17,8 +17,8 @@ const 博客 = {
   sortByDate: true,
   pagesShow: {
     newsletter: true,
-    笔记: true,
-    项目: true,
+    notes: true,
+    projects: true,
     contact: true,
     books: true,
     friends: true
@@ -65,7 +65,7 @@ const 博客 = {
       websiteId: '' // The website id of your Umami instance
     }
   },
-  评论: {
+  comment: {
     // support provider: utterances, supacomments
     provider: '', // leave it empty if you don't need any comment plugin
     supaCommentsConfig: {
