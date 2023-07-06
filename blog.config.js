@@ -1,15 +1,15 @@
 const 博客 = {
-  标题: '北海轻歌-记录一个城市的一个人',
+  标题: '北海轻歌',
   作者: '琛苏',
   email: 'i4017@hotmail.com',
   link: 'https://4op.top',
   newsletter: 'Notionic Weekly',
-  描述: 'A static blog build on top of Notion and Next.js',
+  描述: '-记录一个城市的一个人',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   外观: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
-  lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
+  lightBackground: '#F6F8FA', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#212936', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Notionic in a folder
   since: , // If leave this empty, current year will be used.
