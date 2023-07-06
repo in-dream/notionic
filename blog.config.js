@@ -1,10 +1,10 @@
 const BLOG = {
   title: '北海轻歌',
   author: '琛苏',
-  email: 'i4017@hotmail.com',
-  link: 'https://4op.top',
+  email: 'i@zuolan.me',
+  link: 'https://zuolan.me',
   newsletter: 'Notionic Weekly',
-  description: '-记录一个城市的一个人',
+  description: 'A static blog build on top of Notion and Next.js',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -12,8 +12,8 @@ const BLOG = {
   lightBackground: '#F6F8FA', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#212936', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Notionic in a folder
-  since:  , // If leave this empty, current year will be used.
-  postsPerPage: 12,
+  since: 2022, // If leave this empty, current year will be used.
+  postsPerPage: 10,
   sortByDate: true,
   pagesShow: {
     newsletter: true,
@@ -29,18 +29,18 @@ const BLOG = {
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
-    twitter: 'https://twitter.com/guoran',
-    github: 'https://github.com/in-dream',
-    telegram: 'https://t.me/may_518'
+    twitter: 'https://twitter.com/izuolan',
+    github: 'https://github.com/izuolan',
+    telegram: 'https://t.me/zuolan'
   },
   seo: {
-    keywords: ['琛苏', '北海轻歌', 'Blog'],
+    keywords: ['Notionic', 'Zuolan', 'Blog'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionSpacesId: process.env.NOTION_SPACES_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
-  notionDomain: 'guoran.notion.site',
+  notionDomain: 'izuolan.notion.site',
   telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
   telegramChatId: '263895784', // The chat id of your Telegram bot
   telegramChannelUrl: 'https://channel.zuolan.me/', // The link of your Telegram channel
